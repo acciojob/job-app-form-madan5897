@@ -1,2 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
-/* Your CSS Code here. */
+body{
+    background-color: aquamarine;
+    margin: 15px;
+    padding: 10px;
+}
+
+.container{
+    padding: 15px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: center;
+}
+.main_user_details{
+    padding: 10px;
+    
+}
+.user_info{
+    padding: 10px;  
+}
+.gender_details{
+    padding: 0px 20px;
+}
+.submit_button{
+   padding: 10px;
+}
+.laptop_brands{
+    padding: 20px;
+}
+.user_url{
+    padding: 20px;
+}
+button{
+    padding: 5px;
+    width: 100%;
+    background-color: chartreuse;
+}
