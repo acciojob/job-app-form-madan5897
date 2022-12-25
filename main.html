@@ -11,47 +11,21 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<div class="container">
-	<h1>Job App form</h1>
+	<h1>Job App Form</h1>
+	<hr>
 	<form action="#">
-		<div class="main_user_details">
-
-		<div class="user_info">
 		<label for="name">Name*</label>
 		<input type="text" name="name" id="name" required>
-		</div>
-
-		<div class="user_info">
+		<br>
 		<label for="email">Email*</label>
 		<input type="email" name="email" id="email" required>
-		</div>
-
-		<div class="user_info">
-		<label for="age">Age*</label>
-		<input type="number" name="age" id="age" required>
-		</div>
-
-		<div class="user_info">
-		<label for="dob">DOB*</label>
-		<input type="date" name="DOB" id="dob" required>
-		</div>
-
-		<div class="user_info">
-		<label for="password">Password*</label>
-		<input type="password" name="password" id="password" required>
-		</div>
-
-	</div>
-
-	<div class="gender_details">
-		<span>Gender*</span>
+		<br>
+		<label for="gender">Gender*</label>
 		<label for="male">Male</label>
 		<input type="radio" name="gender" id="male" required>
 		<label for="female">Female</label>
 		<input type="radio" name="gender" id="female" required>
-	</div>
-
-		<div class="laptop_brands">
+		<br>
 		<label for="Laptop Brands">Laptop Brands*</label>
 		<select name="Laptop Brands" id="Laptop" required>
 			<option value="#">-select the laptop brand-</option>
@@ -59,19 +33,23 @@
 			<option value="Asus">Asus</option>
 			<option value="Hp">Hp</option>
 		</select>
-		</div>
+		<br>
+		<label for="age">Age*</label>
+		<input type="number" name="age" id="age" required>
+		<br>
+		<label for="dob">DOB*</label>
+		<input type="date" name="DOB" id="dob" required>
+		<br>
+		<label for="password">Password*</label>
+		<input type="password" name="password" id="password" required>
+		<br>
+		<label for="portfolio">Paste your website URL</label>
+		<input type="url" name="url" id="portfolio">
+		<br>
+		<button type="submit">Submit</button>
 
-		<div class="user_url">
-			<label for="url">Paste your website URL</label>
-			<input type="url" name="url" id="url">
-		</div>
-
-	<div class="submit_button">
-	<button type="submit">Submit</button>
-	</div>
 	</form>
-	
-</div>
+
 
 </body>
 
